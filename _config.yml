@@ -176,8 +176,8 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 #social:
-  #GitHub: https://github.com/eason || github
-  #E-Mail: mailto:easonxiang@gmail.com || envelope
+GitHub: https://github.com/easonxiang || github
+E-Mail: mailto:easonxiang@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -377,7 +377,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night bright
 
 # Enable "cheers" for archive page.
 cheers_enabled: true
@@ -396,7 +396,7 @@ cheers_enabled: true
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -423,7 +423,7 @@ font:
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: Noto Sans SC
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
@@ -436,7 +436,7 @@ font:
   codes:
     external: true
     family:
-    size:
+    size: 18
 
 
 # ---------------------------------------------------------------
